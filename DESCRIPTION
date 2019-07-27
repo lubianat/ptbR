@@ -4,7 +4,7 @@ Title: R básico em Português Brasileiro
 Version: 0.0.1
 Authors@R: c(person("Tiago", "Lubiana", email = "tiago.lubiana.alves@usp.br",
   role = c("aut", "cre")), person("Kleber", "Neves", email = "kleber.na@gmail.com",
-  role = c("aut","cre"))) 
+  role = c("aut"))) 
 Maintainer: Tiago Lubiana <tiago.lubiana.alves@usp.br>
 Description: Pega funções do R e traduz para português. Simples assim. 
 License: MIT + LICENSE
