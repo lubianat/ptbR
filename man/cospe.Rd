@@ -7,7 +7,7 @@
 cospe(x)
 }
 \arguments{
-\item{x}{Um objeto para "cuspir" no terminal}
+\item{x}{Um objeto para "cuspir" no console}
 }
 \description{
 cospe imprime seu argumento e o retorna invisivelmente
@@ -21,4 +21,5 @@ wrapper da função "print"
 \examples{
 x <- "eae, rapaziada"
 cospe(x)
+
 }

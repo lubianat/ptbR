@@ -1,7 +1,3 @@
-
-
-
-
 #' cospe
 #'
 #' cospe imprime seu argumento e o retorna invisivelmente
@@ -11,11 +7,24 @@
 #'
 #' wrapper da função "print"
 #'
-#' @param x Um objeto para "cuspir" no terminal
+#' @param x Um objeto para "cuspir" no console
 #' @export
 #' @examples
 #' x <- "eae, rapaziada"
 #' cospe(x)
+#'
 cospe <- function(x, ...) {
   print(x, ...)
+}
+
+#' cos
+#'
+#' Calcula o cosseno.
+#' @param x Vetores numéricos ou complexos
+#' @export
+#' @examples
+#' cos(0)
+#'
+cos <- function(x){
+  cos(x)
 }

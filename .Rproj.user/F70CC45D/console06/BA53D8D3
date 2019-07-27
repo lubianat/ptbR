@@ -140,3 +140,84 @@ hint: Waiting for your editor to close the file... [?2004h[23;0;0t[KMerge ma
  create mode 100644 .gitignore
  create mode 100644 LICENSE
 ]0;/home/csbl/lubiana/ptbR(base) ]0;csbl@csbl-notebook: ~/lubiana/ptbR[01;32mcsbl@csbl-notebook[00m:[01;34m~/lubiana/ptbR[00m$ git add .
+]0;/home/csbl/lubiana/ptbR(base) ]0;csbl@csbl-notebook: ~/lubiana/ptbR[01;32mcsbl@csbl-notebook[00m:[01;34m~/lubiana/ptbR[00m$ git comi[Kmit -m "bla'[K"
+[master 39333a6] bla
+ 7 files changed, 150 insertions(+), 10 deletions(-)
+ rewrite .Rproj.user/F70CC45D/console06/INDEX001 (70%)
+]0;/home/csbl/lubiana/ptbR(base) ]0;csbl@csbl-notebook: ~/lubiana/ptbR[01;32mcsbl@csbl-notebook[00m:[01;34m~/lubiana/ptbR[00m$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+]0;/home/csbl/lubiana/ptbR(base) ]0;csbl@csbl-notebook: ~/lubiana/ptbR[01;32mcsbl@csbl-notebook[00m:[01;34m~/lubiana/ptbR[00m$ git push origin
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+]0;/home/csbl/lubiana/ptbR(base) ]0;csbl@csbl-notebook: ~/lubiana/ptbR[01;32mcsbl@csbl-notebook[00m:[01;34m~/lubiana/ptbR[00m$ git push origin margin
+error: src refspec margin does not match any.
+error: failed to push some refs to 'https://github.com/lubianat/ptbR.git'
+]0;/home/csbl/lubiana/ptbR(base) ]0;csbl@csbl-notebook: ~/lubiana/ptbR[01;32mcsbl@csbl-notebook[00m:[01;34m~/lubiana/ptbR[00m$ git push origin margin[C[C[C[C[C[C[C[C[1@ [1@-[1@-[1P[1@s
+error: unknown switch `s'
+usage: git push [<options>] [<repository> [<refspec>...]]
+
+    -v, --verbose         be more verbose
+    -q, --quiet           be more quiet
+    --repo <repository>   repository
+    --all                 push all refs
+    --mirror              mirror all refs
+    -d, --delete          delete refs
+    --tags                push tags (can't be used with --all or --mirror)
+    -n, --dry-run         dry run
+    --porcelain           machine-readable output
+    -f, --force           force updates
+    --force-with-lease[=<refname>:<expect>]
+                          require old value of ref to be at this value
+    --recurse-submodules[=<check|on-demand|no>]
+                          control recursive pushing of submodules
+    --thin                use thin pack
+    --receive-pack <receive-pack>
+                          receive pack program
+    --exec <receive-pack>
+                          receive pack program
+    -u, --set-upstream    set upstream for git pull/status
+    --progress            force progress reporting
+    --prune               prune locally removed refs
+    --no-verify           bypass pre-push hook
+    --follow-tags         push missing but relevant tags
+    --signed[=<yes|no|if-asked>]
+                          GPG sign the push
+    --atomic              request atomic transaction on remote side
+    -o, --push-option <server-specific>
+                          option to transmit
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+
+]0;/home/csbl/lubiana/ptbR(base) ]0;csbl@csbl-notebook: ~/lubiana/ptbR[01;32mcsbl@csbl-notebook[00m:[01;34m~/lubiana/ptbR[00m$ git push -s origin margin[C[1@-[C[C[1@e[1@t[1@-[1@u[1@p[1@s[1@t[1@r[1@e[1@a[1@m
+error: src refspec margin does not match any.
+error: failed to push some refs to 'https://github.com/lubianat/ptbR.git'
+]0;/home/csbl/lubiana/ptbR(base) ]0;csbl@csbl-notebook: ~/lubiana/ptbR[01;32mcsbl@csbl-notebook[00m:[01;34m~/lubiana/ptbR[00m$ git push --set-upstream origin margin[12Ps[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3P[C[C[C[C[C[C[C[C[C[C[C[C[C
+error: src refspec margin does not match any.
+error: failed to push some refs to 'https://github.com/lubianat/ptbR.git'
+]0;/home/csbl/lubiana/ptbR(base) ]0;csbl@csbl-notebook: ~/lubiana/ptbR[01;32mcsbl@csbl-notebook[00m:[01;34m~/lubiana/ptbR[00m$ git push origin margin[15@--set-upstream [C[C[C[C[C[C[C[C[C[C[C[C[C[12Ps[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3P[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K [K-[K -u origin
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+]0;/home/csbl/lubiana/ptbR(base) ]0;csbl@csbl-notebook: ~/lubiana/ptbR[01;32mcsbl@csbl-notebook[00m:[01;34m~/lubiana/ptbR[00m$ git push -u origin master
+Username for 'https://github.com': lubianat
+Password for 'https://lubianat@github.com': 
+Counting objects: 47, done.
+Delta compression using up to 8 threads.
+Compressing objects:   2% (1/42)   Compressing objects:   4% (2/42)   Compressing objects:   7% (3/42)   Compressing objects:   9% (4/42)   Compressing objects:  11% (5/42)   Compressing objects:  14% (6/42)   Compressing objects:  16% (7/42)   Compressing objects:  19% (8/42)   Compressing objects:  21% (9/42)   Compressing objects:  23% (10/42)   Compressing objects:  26% (11/42)   Compressing objects:  28% (12/42)   Compressing objects:  30% (13/42)   Compressing objects:  33% (14/42)   Compressing objects:  35% (15/42)   Compressing objects:  38% (16/42)   Compressing objects:  40% (17/42)   Compressing objects:  42% (18/42)   Compressing objects:  45% (19/42)   Compressing objects:  47% (20/42)   Compressing objects:  50% (21/42)   Compressing objects:  52% (22/42)   Compressing objects:  54% (23/42)   Compressing objects:  57% (24/42)   Compressing objects:  59% (25/42)   Compressing objects:  61% (26/42)   Compressing objects:  64% (27/42)   Compressing objects:  66% (28/42)   Compressing objects:  69% (29/42)   Compressing objects:  71% (30/42)   Compressing objects:  73% (31/42)   Compressing objects:  76% (32/42)   Compressing objects:  78% (33/42)   Compressing objects:  80% (34/42)   Compressing objects:  83% (35/42)   Compressing objects:  85% (36/42)   Compressing objects:  88% (37/42)   Compressing objects:  90% (38/42)   Compressing objects:  92% (39/42)   Compressing objects:  95% (40/42)   Compressing objects:  97% (41/42)   Compressing objects: 100% (42/42)   Compressing objects: 100% (42/42), done.
+Writing objects:   2% (1/47)   Writing objects:   4% (2/47)   Writing objects:   6% (3/47)   Writing objects:   8% (4/47)   Writing objects:  10% (5/47)   Writing objects:  12% (6/47)   Writing objects:  14% (7/47)   Writing objects:  17% (8/47)   Writing objects:  19% (9/47)   Writing objects:  23% (11/47)   Writing objects:  25% (12/47)   Writing objects:  27% (13/47)   Writing objects:  29% (14/47)   Writing objects:  31% (15/47)   Writing objects:  34% (16/47)   Writing objects:  36% (17/47)   Writing objects:  38% (18/47)   Writing objects:  40% (19/47)   Writing objects:  42% (20/47)   Writing objects:  44% (21/47)   Writing objects:  48% (23/47)   Writing objects:  51% (24/47)   Writing objects:  53% (25/47)   Writing objects:  55% (26/47)   Writing objects:  57% (27/47)   Writing objects:  59% (28/47)   Writing objects:  61% (29/47)   Writing objects:  63% (30/47)   Writing objects:  65% (31/47)   Writing objects:  68% (32/47)   Writing objects:  70% (33/47)   Writing objects:  72% (34/47)   Writing objects:  74% (35/47)   Writing objects:  76% (36/47)   Writing objects:  78% (37/47)   Writing objects:  80% (38/47)   Writing objects:  82% (39/47)   Writing objects:  85% (40/47)   Writing objects:  87% (41/47)   Writing objects:  89% (42/47)   Writing objects:  91% (43/47)   Writing objects:  93% (44/47)   Writing objects:  95% (45/47)   Writing objects:  97% (46/47)   Writing objects: 100% (47/47)   Writing objects: 100% (47/47), 8.06 KiB | 589.00 KiB/s, done.
+Total 47 (delta 9), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/9)   [Kremote: Resolving deltas:  22% (2/9)   [Kremote: Resolving deltas:  33% (3/9)   [Kremote: Resolving deltas:  44% (4/9)   [Kremote: Resolving deltas:  55% (5/9)   [Kremote: Resolving deltas:  88% (8/9)   [Kremote: Resolving deltas: 100% (9/9)   [Kremote: Resolving deltas: 100% (9/9), done.[K
+To https://github.com/lubianat/ptbR.git
+   f7b8b0b..39333a6  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+]0;/home/csbl/lubiana/ptbR(base) ]0;csbl@csbl-notebook: ~/lubiana/ptbR[01;32mcsbl@csbl-notebook[00m:[01;34m~/lubiana/ptbR[00m$ [K(base) ]0;csbl@csbl-notebook: ~/lubiana/ptbR[01;32mcsbl@csbl-notebook[00m:[01
+/lubiana/ptbR[01;32mcsbl@csbl-notebook[00m:[01;34m~/lubiana/ptbR[00m$ [K[A[A(base) ]0;csbl@csbl-notebook: ~/lubiana/ptbR[01;32mcsbl@csbl-notebook[00m:[01;34m~/lubiana/ptbR[00m$ GIT ADD[K[K[K[K[K[K[Ktid[K[K[Kgit add .
