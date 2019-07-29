@@ -55,8 +55,8 @@ como.fator <- function (x, ...) {
 #' @param x Objeto a ser convertido em fator
 #' @export
 #' @examples
-#' x <- "eae, rapaziada"
-#' cospe(x)
+#' x <- c("1", "2", "3",)
+#' como.inteiro(x)
 #'
 como.inteiro <- function (x, ...) {
   as.integer(x, ...)
@@ -64,18 +64,16 @@ como.inteiro <- function (x, ...) {
 
 #' como.lista
 #'
-#' cospe imprime seu argumento e o retorna invisivelmente
-#' (via invisível (x)). É uma função genérica,
-#' o que significa que novos métodos de impressão
-#' podem ser facilmente adicionados para novas classes.
+#'  Converte um objeto em uma lista
+
 #'
-#' wrapper da função "print"
+#' wrapper da função "list"
 #'
 #' @param x Um objeto para "cuspir" no console
 #' @export
 #' @examples
-#' x <- "eae, rapaziada"
-#' cospe(x)
+#' x <- c(1,2,3)
+#' como.lista(x)
 #'
 como.lista <- function (x, ...) {
   as.list(x, ...)
