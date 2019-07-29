@@ -17,131 +17,32 @@ cospe <- function(x, ...) {
   print(x, ...)
 }
 
-#' cos
-#'
-#' Calcula o cosseno.
-#' @param x Vetores numéricos ou complexos
-#' @export
-#' @examples
-#' cos(0)
-#'
-cos <- function(x) {
-  cos(x)
-}
 
-#' todos
+
+
+#' aplica funções sobre margens de "arrays (?)"
 #'
-#' cospe imprime seu argumento e o retorna invisivelmente
-#' (via invisível (x)). É uma função genérica,
-#' o que significa que novos métodos de impressão
-#' podem ser facilmente adicionados para novas classes.
+#' retorna um vetor, arrray ou lista de valores obtidos pela aplicação de uma função
+#' às margens de uma matriz
 #'
 #' wrapper da função "print"
 #'
-#' @param x Um objeto para "cuspir" no console
-#' @export
+#' @param X Uma array, como uma matriz
+#' @param MARGEM Um vetor indicanto os subscritos aos quais a função será aplicada.
+#' Por exemplo, para uma matrix, o número 1 indica linhas, enquando o 2 indica colunas,
+#' c(1,2) indica linhas e colunas. Quando X tiver nomes para as dimensões, pode ser um
+#' vetor de caracteres (palavras) indicando o nome das dimensões.
+#' #' @export
 #' @examples
-#' x <- "eae, rapaziada"
-#' cospe(x)
-#'
-todos <- function (..., remover.na = FALSE) {
-  all(..., remover.na)
-}
-
-#' algum
-#'
-#' cospe imprime seu argumento e o retorna invisivelmente
-#' (via invisível (x)). É uma função genérica,
-#' o que significa que novos métodos de impressão
-#' podem ser facilmente adicionados para novas classes.
-#'
-#' wrapper da função "print"
-#'
-#' @param x Um objeto para "cuspir" no console
-#' @export
-#' @examples
-#' x <- "eae, rapaziada"
-#' cospe(x)
-#'
-algum <- function (..., remover.na = FALSE) {
-  any(..., remover.na)
-}
-
-#' aplicar
-#'
-#' cospe imprime seu argumento e o retorna invisivelmente
-#' (via invisível (x)). É uma função genérica,
-#' o que significa que novos métodos de impressão
-#' podem ser facilmente adicionados para novas classes.
-#'
-#' wrapper da função "print"
-#'
-#' @param x Um objeto para "cuspir" no console
-#' @export
-#' @examples
-#' x <- "eae, rapaziada"
-#' cospe(x)
+# x <- cbind(x1 = 3, x2 = c(4:1, 2:5))
+# dimnames(x)[[1]] <- letters[1:8]
+# aplicar(x, 2, mean, trim = .2)
 #'
 aplicar <- function (X, MARGEM, FUN, ...) {
   apply(X, MARGEM, FUN, ...)
 }
 
-#' arccos
-#'
-#' cospe imprime seu argumento e o retorna invisivelmente
-#' (via invisível (x)). É uma função genérica,
-#' o que significa que novos métodos de impressão
-#' podem ser facilmente adicionados para novas classes.
-#'
-#' wrapper da função "print"
-#'
-#' @param x Um objeto para "cuspir" no console
-#' @export
-#' @examples
-#' x <- "eae, rapaziada"
-#' cospe(x)
-#'
-arccos <- function (x) {
-  arccos(x)
-}
 
-#' arcsen
-#'
-#' cospe imprime seu argumento e o retorna invisivelmente
-#' (via invisível (x)). É uma função genérica,
-#' o que significa que novos métodos de impressão
-#' podem ser facilmente adicionados para novas classes.
-#'
-#' wrapper da função "print"
-#'
-#' @param x Um objeto para "cuspir" no console
-#' @export
-#' @examples
-#' x <- "eae, rapaziada"
-#' cospe(x)
-#'
-arcsen <- function (x) {
-  arcsin(x)
-}
-
-#' arctan
-#'
-#' cospe imprime seu argumento e o retorna invisivelmente
-#' (via invisível (x)). É uma função genérica,
-#' o que significa que novos métodos de impressão
-#' podem ser facilmente adicionados para novas classes.
-#'
-#' wrapper da função "print"
-#'
-#' @param x Um objeto para "cuspir" no console
-#' @export
-#' @examples
-#' x <- "eae, rapaziada"
-#' cospe(x)
-#'
-arctan <- function (x) {
-  arctan(x)
-}
 
 #' como.texto
 #'

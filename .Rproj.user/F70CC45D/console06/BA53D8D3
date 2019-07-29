@@ -221,3 +221,42 @@ To https://github.com/lubianat/ptbR.git
 Branch 'master' set up to track remote branch 'master' from 'origin'.
 ]0;/home/csbl/lubiana/ptbR(base) ]0;csbl@csbl-notebook: ~/lubiana/ptbR[01;32mcsbl@csbl-notebook[00m:[01;34m~/lubiana/ptbR[00m$ [K(base) ]0;csbl@csbl-notebook: ~/lubiana/ptbR[01;32mcsbl@csbl-notebook[00m:[01
 /lubiana/ptbR[01;32mcsbl@csbl-notebook[00m:[01;34m~/lubiana/ptbR[00m$ [K[A[A(base) ]0;csbl@csbl-notebook: ~/lubiana/ptbR[01;32mcsbl@csbl-notebook[00m:[01;34m~/lubiana/ptbR[00m$ GIT ADD[K[K[K[K[K[K[Ktid[K[K[Kgit add .
+]0;/home/csbl/lubiana/ptbR(base) ]0;csbl@csbl-notebook: ~/lubiana/ptbR[01;32mcsbl@csbl-notebook[00m:[01;34m~/lubiana/ptbR[00m$ ls
+DESCRIPTION  [0m[01;34mman[0m        ptbR.Rproj
+LICENSE      NAMESPACE  [01;34mR[0m
+]0;/home/csbl/lubiana/ptbR(base) ]0;csbl@csbl-notebook: ~/lubiana/ptbR[01;32mcsbl@csbl-notebook[00m:[01;34m~/lubiana/ptbR[00m$ git commit  -m [K[K [Km 'cos fun[K[K[K[K[K[K[Kfunçoc[K[Ko[Kao cos'
+[master 104276d] funçao cos
+ 13 files changed, 143 insertions(+), 45 deletions(-)
+ rewrite .Rproj.user/F70CC45D/console06/INDEX001 (70%)
+ delete mode 100644 .Rproj.user/F70CC45D/sources/s-5FCD2FE/273D4DEE
+ create mode 100644 man/cos.Rd
+]0;/home/csbl/lubiana/ptbR(base) ]0;csbl@csbl-notebook: ~/lubiana/ptbR[01;32mcsbl@csbl-notebook[00m:[01;34m~/lubiana/ptbR[00m$ git push
+Username for 'https://github.com': lubianat
+Password for 'https://lubianat@github.com': 
+Counting objects: 23, done.
+Delta compression using up to 8 threads.
+Compressing objects:   4% (1/22)   Compressing objects:   9% (2/22)   Compressing objects:  13% (3/22)   Compressing objects:  18% (4/22)   Compressing objects:  22% (5/22)   Compressing objects:  27% (6/22)   Compressing objects:  31% (7/22)   Compressing objects:  36% (8/22)   Compressing objects:  40% (9/22)   Compressing objects:  45% (10/22)   Compressing objects:  50% (11/22)   Compressing objects:  54% (12/22)   Compressing objects:  59% (13/22)   Compressing objects:  63% (14/22)   Compressing objects:  68% (15/22)   Compressing objects:  72% (16/22)   Compressing objects:  77% (17/22)   Compressing objects:  81% (18/22)   Compressing objects:  86% (19/22)   Compressing objects:  90% (20/22)   Compressing objects:  95% (21/22)   Compressing objects: 100% (22/22)   Compressing objects: 100% (22/22), done.
+Writing objects:   4% (1/23)   Writing objects:   8% (2/23)   Writing objects:  13% (3/23)   Writing objects:  17% (4/23)   Writing objects:  21% (5/23)   Writing objects:  26% (6/23)   Writing objects:  30% (7/23)   Writing objects:  34% (8/23)   Writing objects:  39% (9/23)   Writing objects:  43% (10/23)   Writing objects:  47% (11/23)   Writing objects:  52% (12/23)   Writing objects:  56% (13/23)   Writing objects:  60% (14/23)   Writing objects:  65% (15/23)   Writing objects:  69% (16/23)   Writing objects:  73% (17/23)   Writing objects:  78% (18/23)   Writing objects:  82% (19/23)   Writing objects:  86% (20/23)   Writing objects:  91% (21/23)   Writing objects:  95% (22/23)   Writing objects: 100% (23/23)   Writing objects: 100% (23/23), 3.97 KiB | 508.00 KiB/s, done.
+Total 23 (delta 7), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/7)   [Kremote: Resolving deltas:  14% (1/7)   [Kremote: Resolving deltas:  28% (2/7)   [Kremote: Resolving deltas:  42% (3/7)   [Kremote: Resolving deltas:  57% (4/7)   [Kremote: Resolving deltas:  71% (5/7)   [Kremote: Resolving deltas:  85% (6/7)   [Kremote: Resolving deltas: 100% (7/7)   [Kremote: Resolving deltas: 100% (7/7), completed with 7 local objects.[K
+To https://github.com/lubianat/ptbR.git
+   39333a6..104276d  master -> master
+]0;/home/csbl/lubiana/ptbR(base) ]0;csbl@csbl-notebook: ~/lubiana/ptbR[01;32mcsbl@csbl-notebook[00m:[01;34m~/lubiana/ptbR[00m$ git puu[Kll 
+remote: Enumerating objects: 7, done.[K
+remote: Counting objects:  14% (1/7)   [Kremote: Counting objects:  28% (2/7)   [Kremote: Counting objects:  42% (3/7)   [Kremote: Counting objects:  57% (4/7)   [Kremote: Counting objects:  71% (5/7)   [Kremote: Counting objects:  85% (6/7)   [Kremote: Counting objects: 100% (7/7)   [Kremote: Counting objects: 100% (7/7), done.[K
+remote: Compressing objects:  33% (1/3)   [Kremote: Compressing objects:  66% (2/3)   [Kremote: Compressing objects: 100% (3/3)   [Kremote: Compressing objects: 100% (3/3), done.[K
+remote: Total 4 (delta 1), reused 4 (delta 1), pack-reused 0[K
+Unpacking objects:  25% (1/4)   Unpacking objects:  50% (2/4)   Unpacking objects:  75% (3/4)   Unpacking objects: 100% (4/4)   Unpacking objects: 100% (4/4), done.
+From https://github.com/lubianat/ptbR
+   104276d..b5befac  master     -> origin/master
+Updating 104276d..b5befac
+Fast-forward
+ R/cospe.R | 211 [32m+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m[31m-[m
+ 1 file changed, 210 insertions(+), 1 deletion(-)
+]0;/home/csbl/lubiana/ptbR(base) ]0;csbl@csbl-notebook: ~/lubiana/ptbR[01;32mcsbl@csbl-notebook[00m:[01;34m~/lubiana/ptbR[00m$ la
+DESCRIPTION  .gitignore  [0m[01;34mman[0m        ptbR.Rproj  .Rbuildignore
+[01;34m.git[0m         LICENSE     NAMESPACE  [01;34mR[0m           [01;34m.Rproj.user[0m
+]0;/home/csbl/lubiana/ptbR(base) ]0;csbl@csbl-notebook: ~/lubiana/ptbR[01;32mcsbl@csbl-notebook[00m:[01;34m~/lubiana/ptbR[00m$ ls
+DESCRIPTION  LICENSE  [0m[01;34mman[0m  NAMESPACE  ptbR.Rproj  [01;34mR[0m
+]0;/home/csbl/lubiana/ptbR(base) ]0;csbl@csbl-notebook: ~/lubiana/ptbR[01;32mcsbl@csbl-notebook[00m:[01;34m~/lubiana/ptbR[00m$ git[K[K[Kgit add .
+]0;/home/csbl/lubiana/ptbR(base) ]0;csbl@csbl-notebook: ~/lubiana/ptbR[01;32mcsbl@csbl-notebook[00m:[01;34m~/lubiana/ptbR[00m$ g[K
