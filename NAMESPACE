@@ -3,6 +3,7 @@
 export(algum)
 export(arcsen)
 export(arctan)
+export(classe)
 export(como.fator)
 export(como.inteiro)
 export(como.lista)
