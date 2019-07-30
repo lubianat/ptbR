@@ -40,4 +40,18 @@ aplicar <- function (X, MARGEM, FUN, ...) {
   apply(X, MARGEM, FUN, ...)
 }
 
-
+#' classe
+#'
+#' responde qual a classe do objeto
+#'
+#' wrapper da função "class"
+#'
+#' @param x Um objeto do R
+#' @export
+#' @examples
+#' x <- "eae, rapaziada"
+#' classe(x)
+#'
+classe <- function(x, ...) {
+  class(x)
+}
