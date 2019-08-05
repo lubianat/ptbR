@@ -259,4 +259,8 @@ DESCRIPTION  .gitignore  [0m[01;34mman[0m        ptbR.Rproj  .Rbuildignore
 ]0;/home/csbl/lubiana/ptbR(base) ]0;csbl@csbl-notebook: ~/lubiana/ptbR[01;32mcsbl@csbl-notebook[00m:[01;34m~/lubiana/ptbR[00m$ ls
 DESCRIPTION  LICENSE  [0m[01;34mman[0m  NAMESPACE  ptbR.Rproj  [01;34mR[0m
 ]0;/home/csbl/lubiana/ptbR(base) ]0;csbl@csbl-notebook: ~/lubiana/ptbR[01;32mcsbl@csbl-notebook[00m:[01;34m~/lubiana/ptbR[00m$ git[K[K[Kgit add .
-]0;/home/csbl/lubiana/ptbR(base) ]0;csbl@csbl-notebook: ~/lubiana/ptbR[01;32mcsbl@csbl-notebook[00m:[01;34m~/lubiana/ptbR[00m$ g[K
+[K(base) ]0;csbl@csbl-notebook: ~/lubiana/ptbR[01;32mcsbl@csbl-notebook[00m:[01;34m~/lubiana/ptbR[00m$ git dd[K[Kadd gera[K[K[K[KR/gerador_tipos_de_objeetos.R 
+]0;/home/csbl/lubiana/ptbR(base) ]0;csbl@csbl-notebook: ~/lubiana/ptbR[01;32mcsbl@csbl-notebook[00m:[01;34m~/lubiana/ptbR[00m$ git commit -m "Brincando com g eradores automticos [K[K[K[K[K[Katicos de wrappers'
+> ^C"
+
+]0;/home/csbl/lubiana/ptbR]0;/home/csbl/lubiana/ptbR(base) ]0;csbl@csbl-notebook: ~/lubiana/ptbR[01;32mcsbl@csbl-notebook[00m:[01;34m~/lubiana/ptbR[00m$ git add .

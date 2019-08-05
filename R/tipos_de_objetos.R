@@ -69,7 +69,7 @@ como.inteiro <- function (x, ...) {
 #'
 #' wrapper da função "list"
 #'
-#' @param x Um objeto para "cuspir" no console
+#' @param x Objeto a ser convertido em lista
 #' @export
 #' @examples
 #' x <- c(1,2,3)
@@ -77,4 +77,63 @@ como.inteiro <- function (x, ...) {
 #'
 como.lista <- function (x, ...) {
   as.list(x, ...)
+}
+
+#' como.logico
+#'
+#'  Converte um objeto em um objeto do tipo logico
+
+#'
+#' wrapper da função "logic"
+#'
+#' @param x Objeto a ser convertido em lógico
+#' @export
+#' @examples
+#' x <- c(1,2,3)
+#' como.logico(x)
+#'
+como.logico <- function (x, ...) {
+  as.logical(x, ...)
+}
+
+#'  Converte um objeto em uma matriz
+
+#'
+#' wrapper da função "as.matrix"
+#'
+#' @param x Objeto a ser convertido em matriz
+#' @export
+#' @examples
+#' x <- c(1,2,3)
+#' como.matriz(x)
+#'
+como.matriz <- function (x, ...) {
+  as.matrix(x, ...)
+}
+
+
+#'  Converte um objeto em um numérico
+#'
+#' wrapper da função as.numeric
+#'
+#' @param x Objeto a ser convertido em numérico
+#' @export
+#' @examples
+#' x <- c(1,2,3)
+#' como.numerico (x)
+como.numerico  <- function (x, ...) {
+  as.numeric (x, ...)
+}
+
+#'  Converte um objeto em um vetor
+#'
+#' wrapper da função as.vector
+#'
+#' @param x Objeto a ser convertido em vetor
+#' @export
+#' @examples
+#' x <- c(1,2,3)
+#' como.vetor (x)
+como.vetor  <- function (x, ...) {
+  as.vector (x, ...)
 }
