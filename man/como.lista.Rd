@@ -7,7 +7,7 @@
 como.lista(x, ...)
 }
 \arguments{
-\item{x}{Um objeto para "cuspir" no console}
+\item{x}{Objeto a ser convertido em lista}
 }
 \description{
 Converte um objeto em uma lista

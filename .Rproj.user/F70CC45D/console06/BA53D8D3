@@ -264,3 +264,35 @@ DESCRIPTION  LICENSE  [0m[01;34mman[0m  NAMESPACE  ptbR.Rproj  [01;34mR[0m
 > ^C"
 
 ]0;/home/csbl/lubiana/ptbR]0;/home/csbl/lubiana/ptbR(base) ]0;csbl@csbl-notebook: ~/lubiana/ptbR[01;32mcsbl@csbl-notebook[00m:[01;34m~/lubiana/ptbR[00m$ git add .
+]0;/home/csbl/lubiana/ptbR(base) ]0;csbl@csbl-notebook: ~/lubiana/ptbR[01;32mcsbl@csbl-notebook[00m:[01;34m~/lubiana/ptbR[00m$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   .Rproj.user/F70CC45D/console06/BA53D8D3[m
+	[32mmodified:   .Rproj.user/F70CC45D/console06/INDEX001[m
+	[32mmodified:   .Rproj.user/F70CC45D/sources/prop/776C5157[m
+	[32mmodified:   .Rproj.user/F70CC45D/sources/prop/INDEX[m
+	[32mmodified:   .Rproj.user/shared/notebooks/paths[m
+	[32mnew file:   R/gerador_tipos_de_objetos.R[m
+	[32mmodified:   R/tipos_de_objetos.R[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/F70CC45D/console06/BA53D8D3[m
+
+]0;/home/csbl/lubiana/ptbR(base) ]0;csbl@csbl-notebook: ~/lubiana/ptbR[01;32mcsbl@csbl-notebook[00m:[01;34m~/lubiana/ptbR[00m$ git commit 0m[K[K-m "add[K[Kdicionando nov ot[Ks tipos de objetos
+> "
+[master aec9cf3] adicionando novos tipos de objetos
+ 7 files changed, 92 insertions(+), 5 deletions(-)
+ rewrite .Rproj.user/F70CC45D/console06/INDEX001 (85%)
+ create mode 100644 R/gerador_tipos_de_objetos.R
+]0;/home/csbl/lubiana/ptbR(base) ]0;csbl@csbl-notebook: ~/lubiana/ptbR[01;32mcsbl@csbl-notebook[00m:[01;34m~/lubiana/ptbR[00m$ git push
+Username for 'https://github.com': ^C
+]0;/home/csbl/lubiana/ptbR(base) ]0;csbl@csbl-notebook: ~/lubiana/ptbR[01;32mcsbl@csbl-notebook[00m:[01;34m~/lubiana/ptbR[00m$ git add *.R[Krd
+fatal: pathspec '*.rd' did not match any files
+]0;/home/csbl/lubiana/ptbR(base) ]0;csbl@csbl-notebook: ~/lubiana/ptbR[01;32mcsbl@csbl-notebook[00m:[01;34m~/lubiana/ptbR[00m$ git add *.rd[1Pd[KR[K[K[K.
