@@ -296,3 +296,21 @@ Username for 'https://github.com': ^C
 ]0;/home/csbl/lubiana/ptbR(base) ]0;csbl@csbl-notebook: ~/lubiana/ptbR[01;32mcsbl@csbl-notebook[00m:[01;34m~/lubiana/ptbR[00m$ git add *.R[Krd
 fatal: pathspec '*.rd' did not match any files
 ]0;/home/csbl/lubiana/ptbR(base) ]0;csbl@csbl-notebook: ~/lubiana/ptbR[01;32mcsbl@csbl-notebook[00m:[01;34m~/lubiana/ptbR[00m$ git add *.rd[1Pd[KR[K[K[K.
+]0;/home/csbl/lubiana/ptbR(base) ]0;csbl@csbl-notebook: ~/lubiana/ptbR[01;32mcsbl@csbl-notebook[00m:[01;34m~/lubiana/ptbR[00m$ git add[K[K[Kcommit -m "br incando com tabelas e c[Kdocumentando"
+[master ed15668] brincando com tabelas e documentando
+ 13 files changed, 178 insertions(+), 2 deletions(-)
+ rewrite .Rproj.user/F70CC45D/console06/INDEX001 (85%)
+ create mode 100644 R/brincando_com_tabelas.R
+ create mode 100644 man/cola.colunas.Rd
+ create mode 100644 man/como.logico.Rd
+ create mode 100644 man/como.matriz.Rd
+ create mode 100644 man/como.numerico.Rd
+ create mode 100644 man/como.vetor.Rd
+ create mode 100644 man/gera_tipos.Rd
+]0;/home/csbl/lubiana/ptbR(base) ]0;csbl@csbl-notebook: ~/lubiana/ptbR[01;32mcsbl@csbl-notebook[00m:[01;34m~/lubiana/ptbR[00m$ ls
+DESCRIPTION  [0m[01;34mman[0m        ptbR.Rproj  README.md
+LICENSE      NAMESPACE  [01;34mR[0m
+]0;/home/csbl/lubiana/ptbR(base) ]0;csbl@csbl-notebook: ~/lubiana/ptbR[01;32mcsbl@csbl-notebook[00m:[01;34m~/lubiana/ptbR[00m$ /ls[K[Kgit commit -m "briincando com tabelas e documentando"[A(base) ]0;csbl@csbl-notebook: ~/lubiana/ptbR[01;32mcsbl@csbl-notebook[00m:[01;34m~/lubiana/ptbR[00m$ [C[C[C[C[8Padd .
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C*.rdls[Kgit pullls[Kgit add *.rd.[Kcommit -m "briincando com tabelas e documentando"[A(base) ]0;csbl@csbl-notebook: ~/lubiana/ptbR[01;32mcsbl@csbl-notebook[00m:[01;34m~/lubiana/ptbR[00m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/D[K[Kdevtools::dpcumen t[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit add .
