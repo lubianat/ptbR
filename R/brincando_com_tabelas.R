@@ -42,3 +42,58 @@ cola.linhas <- function(...){
 }
 
 
+#' Calculando médias e somas de linhas e colunas
+#'
+#' Calcula essas métricas para tabelas ou
+#' matrizes numéricas, para linhas ou colunas.
+#'
+#' @export
+#' @example
+#'  <- cbind(x1 = 3, x2 = c(4:1, 2:5))
+#' col.medias(x); col.somas(x); lin.medias(x); lin.somas(x)
+col.somas <- function(...){
+  colSums(...)
+}
+
+
+#' Calculando médias e somas de linhas e colunas
+#'
+#' Calcula essas métricas para tabelas ou
+#' matrizes numéricas, para linhas ou colunas.
+#'
+#' @export
+#' @example
+#'  <- cbind(x1 = 3, x2 = c(4:1, 2:5))
+#' col.medias(x); col.somas(x); lin.medias(x); lin.somas(x)
+lin.somas <- function(...){
+  rowSums(...)
+}
+
+
+
+#' Calculando médias e somas de linhas e colunas
+#'
+#' Calcula essas métricas para tabelas ou
+#' matrizes numéricas, para linhas ou colunas.
+#'
+#' @export
+#' @example
+#'  <- cbind(x1 = 3, x2 = c(4:1, 2:5))
+#' col.medias(x); col.somas(x); lin.medias(x); lin.somas(x)
+col.medias <- function(...){
+  colMeans(...)
+}
+
+
+#' Calculando médias e somas de linhas e colunas
+#'
+#' Calcula essas métricas para tabelas ou
+#' matrizes numéricas, para linhas ou colunas.
+#'
+#' @export
+#' @example
+#'  <- cbind(x1 = 3, x2 = c(4:1, 2:5))
+#' col.medias(x); col.somas(x); lin.medias(x); lin.somas(x)
+lin.medias <- function(...){
+  rowMeans(...)
+}
