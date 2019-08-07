@@ -10,3 +10,7 @@ col.medias(...)
 Calcula essas métricas para tabelas ou
 matrizes numéricas, para linhas ou colunas.
 }
+\examples{
+ <- cbind(x1 = 3, x2 = c(4:1, 2:5))
+col.medias(x); col.somas(x); lin.medias(x); lin.somas(x)
+}

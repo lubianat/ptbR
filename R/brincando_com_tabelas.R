@@ -48,7 +48,7 @@ cola.linhas <- function(...){
 #' matrizes numéricas, para linhas ou colunas.
 #'
 #' @export
-#' @example
+#' @examples
 #'  <- cbind(x1 = 3, x2 = c(4:1, 2:5))
 #' col.medias(x); col.somas(x); lin.medias(x); lin.somas(x)
 col.somas <- function(...){
@@ -62,7 +62,7 @@ col.somas <- function(...){
 #' matrizes numéricas, para linhas ou colunas.
 #'
 #' @export
-#' @example
+#' @examples
 #'  <- cbind(x1 = 3, x2 = c(4:1, 2:5))
 #' col.medias(x); col.somas(x); lin.medias(x); lin.somas(x)
 lin.somas <- function(...){
@@ -77,7 +77,7 @@ lin.somas <- function(...){
 #' matrizes numéricas, para linhas ou colunas.
 #'
 #' @export
-#' @example
+#' @examples
 #'  <- cbind(x1 = 3, x2 = c(4:1, 2:5))
 #' col.medias(x); col.somas(x); lin.medias(x); lin.somas(x)
 col.medias <- function(...){
@@ -91,7 +91,7 @@ col.medias <- function(...){
 #' matrizes numéricas, para linhas ou colunas.
 #'
 #' @export
-#' @example
+#' @examples
 #'  <- cbind(x1 = 3, x2 = c(4:1, 2:5))
 #' col.medias(x); col.somas(x); lin.medias(x); lin.somas(x)
 lin.medias <- function(...){
